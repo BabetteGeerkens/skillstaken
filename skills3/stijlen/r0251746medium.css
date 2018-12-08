@@ -1,20 +1,68 @@
-#gaming {
-    display: block;
-    background-color: black;
+body {
+    background-color: dimgrey;
     color: whitesmoke;
 }
 
-h2 {
-    font-family: 
+h1 {
+    font-family: 'Source Code Pro', monospace;
+    background-color: #00050E;
+    color: #028586;
+
 }
+
+p {
+    font-family: 'Source Code Pro', monospace;
+    background-color: #021422;
+    color: #A3D5CD;
+    margin: 12px;
+}
+
+h2 {
+    font-family: 'VT323', monospace;
+    font-size: 35px;
+    padding: 10px 60px 10px 60px;
+    margin: 10px;
+    border: 1px solid #F26B5A;
+    border-radius: 5px;
+    background-color: #00050E;
+    color: #028586;
+    font-weight: lighter;
+    box-shadow: 5px 5px 3px #1D2625;
+
+}
+
 #primair {
     display: none;
 }
 
-#luxe{
+#luxe {
     display: none;
 }
 
 #image {
+    height: 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
     background-image: url(../afbeeldingen/medium.jpg);
+}
+
+#container {
+    background-color: #021422;
+    color: whitesmoke;
+
+}
+
+nav a {
+    font-family: 'Source Code Pro', monospace;
+    background-color: #021422;
+    color: #028586;
+    border: 1px solid #F26B5A;
+    border-radius: 5px;
+
+}
+
+#gaming {
+    display: block;
+    background-color: #021422;
+    color: whitesmoke;
 }

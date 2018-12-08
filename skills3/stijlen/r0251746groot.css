@@ -1,3 +1,76 @@
+body {
+    background-color: dimgrey;
+    color: whitesmoke;
+}
+
+h1 {
+    font-family: 'Patrick Hand', cursive;
+    font-style: italic;
+    background-color: #EDEDF0;
+    font-weight: lighter;
+    color: #787564;
+
+}
+
+p{
+    font-family: 'Patrick Hand', cursive;
+    font-style: italic;
+   
+    background-color: whitesmoke;
+    color: #094C27;
+    margin: 12px;
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto
+    
+}
+h2 {
+    font-family: 'Charmonman', cursive;
+    font-style: italic;
+    font-size: 50px;
+    line-height: 75px;
+    background-color: #fff;
+    color: #094C27;
+    
+    
+    padding: 10px 60px 10px 60px;
+    margin: 10px;
+    border: 1px solid #094C27;
+    border-radius: 5px;
+    box-shadow: 5px 5px 3px #1D2625;
+}
+
+#luxe {
+    display: grid;
+    background-color: "C7C8C9;
+    color: whitesmoke;
+}
+
+#image {
+    height: 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(../afbeeldingen/groot.jpg);
+    
+}
+nav a {
+    font-family: 'Patrick Hand', cursive;
+    font-style: italic;
+    background-color: #EDEDF0;
+    color: #0D6936;
+    border: 1px solid #0D6936;
+    border-radius: 5px;
+
+}
+
+#container{
+    max-width: 900px;
+    margin: auto;
+    background-color: whitesmoke;
+    color: #000;
+ 
+}
+
 #primair {
     display: none;
 }
@@ -6,19 +79,29 @@
     display: none;
 }
 
-#luxe {
-    display: block;
-    background-color: dimgrey;
-    color: steelblue;
+.geheel p{
+    border: 1px solid #0D6936;
+    margin: 10px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 5px;
+       
+}
+.geheel {
+    display: flex;
+    background-color: whitesmoke;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-#image {
-    background-image: url(../afbeeldingen/groot.jpg);
-    
-}
 
-h2 {
-    font-family: 'Pacifico', cursive;
-    font-size: 50px;
-    line-height: 75px;
-}
+
+
+
+
+
+
+
+
+
