@@ -37,7 +37,7 @@ h2 {
     margin: 10px;
     border: 1px solid #094C27;
     border-radius: 5px;
-    box-shadow: 5px 5px 3px #1D2625;
+    box-shadow: 5px 5px 3px grey;
 }
 
 #luxe {
@@ -85,6 +85,7 @@ nav a {
     padding: 10px;
     width: 400px;
     border-radius: 5px;
+    box-shadow: 2px 2px 3px grey;
        
 }
 .geheel {
