@@ -1,5 +1,5 @@
 * {
-    padding: 0;
+    padding: 10;
     margin: 0;
 }
 
@@ -12,11 +12,12 @@ p {
     height: 200px;
     background-position: center center;
     background-repeat: no-repeat;
+    background-image: url(../afbeeldingen/basis.jpg);
 }
 
 #container {
-    background-color: #fff;
-    color: #000;
+    background-color: #D6BC98;
+    color: #A5121E;
 }
 
 nav a {
@@ -31,4 +32,24 @@ footer {
     text-align: right;
     font-weight: bold;
     padding: 10px;
+}
+
+#primair {
+    display: block;
+    background-color: #fff;
+    color: #000;
+}
+
+#gaming {
+    display: none;
+}
+
+#luxe {
+    display: none;
+}
+
+body {
+    font-family: ;
+    font-size: ;
+    line-height: ;
 }
